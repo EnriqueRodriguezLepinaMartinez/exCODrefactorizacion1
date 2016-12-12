@@ -18,19 +18,25 @@ public class ExCODRefactorizar1 {
      * @param args the command line arguments
      */
     
-
+/**Este metodo es para recoger el nombre*/
     public static String IntroducirNombre(String nom){
         String n;
         n = nom;
         return n;
     }
-    
+ 
+ /**En este metodo recogemos la edad */
     public static String IntroducirEdad(String eda){
         String e;
         e = eda;
         return e;
     }
-    
+  
+ /**Para mostrar los datos usamos este metodo introcuiendo el "return" de los metodos anteriores
+  * en unas varibles creadas en el main. 
+  * @param nombre
+  * @param edad 
+  */
     public static void MostrarDatos(String nombre, String edad){
     int m;
     int d;
@@ -50,6 +56,8 @@ public class ExCODRefactorizar1 {
         System.exit (0);
 
     }
+    
+    /* En el main llamamos a las variables anteriores introduciendole los datos requeridos para hacer las operaciones**/
     public static void main(String[] args) {
         // TODO code application logic here
         
